@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+
+   <style>
+    @keyframes bounce {
+      0%{
+        transform: translateX(50%);
+      }
+      25% {
+        transform: translateX(150%);
+      }
+       50% {
+        transform: translateX(300%);
+      }
+       75% {
+        transform: translateX(450%);
+      }
+       100% {
+        transform: translateX(600%);
+      }
+    }
+
+    .profile-pic {
+      animation: bounce 20s infinite;
+      animation-timing-function: linear;
+    }
+   
+  </style>
+</head>
+<body>
+
+  <header>
+    
+    <img src="ReImg1.jpg"  alt="Your Photo" class="profile-pic">
+    <p class="bio">Hi I am Ananya H S currently a student of BCA ,intersted about both backed and frontend development...you can contact me here</p>
+  </header>
+  <h1 class="head1">ANANYA H S</h1>
+<div class="main-container">
+  <div class="main-content">
+    <section class="about">
+      <h2>Hey</h2>
+      <p>hello I am anu, Ananya H.S currently I am a student of BCA (Bachelor of Computer application). 
+       I am interested in both backend and frontend developmenet</p>
+    </section>
+
+  </div>
+
+  <aside class="education-section">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>BCA-</strong><br>kuvempu University,ongoing</li>
+      <li><strong>12th Grade</strong><br>GPUC Thirthahalli College, 2023</li>
+      <li><strong>10th Class</strong><br>GHS Yadur, 2021</li>
+
+    </ul>
+  </aside>
+</div>
+
+  <div class="skill">
+    <h2>Skills</h2>
+     <ul>
+      <li>Java</li>
+      <li>Python</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      </ul>
+  </div>
+</section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="http://localhost:8080/sendEmail" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+<!-- <form action="http://localhost:8080/sendEmail" method="POST">
+  <input type="email" name="to" placeholder="Recipient Email" required>
+  <input type="text" name="subject" placeholder="Subject" required>
+  <textarea name="body" placeholder="Your Message" required></textarea>
+  <button type="submit">Send</button>
+</form> -->
+
+   
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ANANYA H S</p>
+  </footer>
+
+</body>
+</html>

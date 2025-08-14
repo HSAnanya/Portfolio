@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #e2b6b6;
+}
+
+header {
+  padding: 20px;
+  background-color: black;
+ 
+}
+header:hover {
+  color: #f2f0f5ea;
+}
+.profile-pic {
+  width: 200px;
+  border-radius: 50%;
+}
+.head1{
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+}
+h1 {
+  color: #080808eb;
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  background: #333;
+  color: #16de63;
+  border: none;
+  padding: 10px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #ef7979;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.main-content {
+  flex: 3;
+  margin-right: 2rem;
+}
+
+.education-section {
+  flex: 1;
+  background-color: #e2b6b6;
+  padding: 1rem;
+  border-left: 2px solid #d55bb4;
+  max-width: 300px;
+    min-height: 350px ;
+}
+.education-section:hover{
+  color: #3d0ecaeb;
+}
+.education-section h2 {
+  margin-top: 0;
+}
+
+.education-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education-section li {
+  margin-bottom: 1rem;
+}
+.about{
+  background-color: #e2b6b6;
+  min-height: 350px ;
+}
+
+.about:hover{
+  color:#5e07e1ea
+}
+.skill{
+  margin-left: 2%;
+  background-color: #e2b6b6;
+}
+.skill:hover{
+  color:#5e07e1ea
+}
+.bio{
+  text-align: center;
+  text-decoration-line:underline;
+  text-shadow: #e2b6b6;
+font-family: "Times New Roman", Times, serif;
+}
